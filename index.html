@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>Caleb Katzenstein Portfolio</title>
+        <link rel = "stylesheet" href = "css/skeleton.css">
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href = "css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link href = "css/magnific-popup.css" rel="stylesheet" />
+        <link rel = "stylesheet" href = "css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                <div class = "twelve columns">
+                    <div class = "logo">
+                        <!-- blank images are there to center the middle image -->
+                        <div class = "four columns"><img src = "#" alt = ""></div>
+                        <div class = "four columns"><img src = "Images/logo.png" alt = "Logo"></div>
+                        <div class = "four columns"><img src = "#" alt = ""></div>
+                    </div>
+                </div>
+                <span class = "center">Game Ready</span>
+            </div>
+        </header>
+        <main>
+            <div class = "container">
+                <div class = "row twelve columns center"><h2>My Projects</h2></div>
+                <div class = "row">
+                    <div class = "four columns portfolio">
+                        <a class = "image-link amnesia-manor" href = "Images/GameMenuFULL-smaller.png" title = "Amnesia Manor is an escape-the-room game. You play as a teenage girl named Elizabeth, who is trapped in a bedroom with no memory of how she got there. To escape, you must discover the terrible secret of Afton Manor. Role: Producer Google Drive link: https://drive.google.com/drive/folders/1JB4Xcb7kgSe3990sicULpsPMEkgvUIWM?usp=sharing"><img src = "Images/GameMenuFULL.png" alt = "Escape Amnesia Manor"></a>
+                    </div>
+                    <div class = "four columns portfolio">
+                        <a class = "image-link" href = "Images/Displacement.PNG" title = "Displacement (working title) is a mobile game in which the user must protect an orb from enemies. To do this, they create bubbles by tapping on the screen. These bubbles propel the orb and enemies away from the bubble. Role: Developer Github: https://github.com/boringlawyer/Portfolio"><img src = "Images/Displacement.PNG" alt = "Mover"></a>
+                    </div>
+                    <div class = "four columns portfolio">
+                        <a class = "image-link" href = "Images/marble-small.PNG" title = "Marble (in-progress) is a mobile, physics game. The goal in each level is to get a ball through a maze. This is done by rotating the phone, which in turn rotates the maze, which manipulates the ball. Role: Developer Github: https://github.com/boringlawyer/Portfolio"><img src = "Images/marble.PNG" alt = "Marble"></a>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "four columns portfolio"></div>
+                    <div class = "four columns portfolio">
+                        <a class = "image-link" href = "Images/dasher.PNG" title = 'Dasher (in progress) is a game in which the player must dash in between obstacles to reach a destination, like the childhood game "The Floor is Lava". Github: https://github.com/boringlawyer/Portfolio'><img src ="Images/dasher.PNG" alt = "Dasher"></a>
+                    </div>
+                    <div class = "four columns portfolio"></div>
+                </div>
+                <div class="row twelve columns center">
+                    <a href = "Resume/Caleb-Katzenstein-Resume-1-18-2019.pdf" id = "resume">Here's My Resume</a>
+                </div>
+            </div>
+        </main>
+        <div class = "row red">
+            <div class = "container">
+                <div class = "four columns">
+                    <img class = "avatar" src = "Images/Profile_Picture_small.jpg" alt = "Me">
+                </div>
+                <div class = "eight columns about-me">
+                    <h2>About Me</h2>
+                    <p>
+                        My name is Caleb Katzenstein, and I am a Game Design and Development student at the Rochester Institute of Technology. I love games, Youtube, animation, superhero movies, and getting things done.<br />
+                        Email: caleb.katzenstein@gmail.com<br />
+                        Residence: Dobbs Ferry, NY 10522<br />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class = "container">
+                <div class = "social row twelve columns"><a href = https://www.linkedin.com/in/caleb-katzenstein-602135127><span class="fa fa-linkedin-square fa-5x" aria-hidden="true"></span></a></div>
+                <div class = "row twelve columns">
+                    <p>&copy; Caleb Katzenstein. All rights reserved. Skeleton framework from getskeleton.com. Magnific Popup from http://dimsemenov.com/plugins/magnific-popup. FontAwesome from fontawesome.io. jQuery from ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js. Roboto font from Google Fonts. With a little help from this forum post: https://stackoverflow.com/questions/3682805/javascript-load-a-page-on-button-click</p>
+                </div>
+            </div>
+        </footer>
+        <script src="Scripts/jquery.magnific-popup.js"></script>
+            <script>            
+            // Initialize popup as usual
+            $('.image-link').magnificPopup({
+              type: 'image',
+              mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+              zoom: {
+                enabled: true, // By default it's false, so don't forget to enable it
+
+                duration: 300, // duration of the effect, in milliseconds
+                easing: 'ease-in-out', // CSS transition easing function
+
+                // The "opener" function should return the element from which popup will be zoomed in
+                // and to which popup will be scaled down
+                // By defailt it looks for an image tag:
+                opener: function(openerElement) {
+                  // openerElement is the element on which popup was initialized, in this case its <a> tag
+                  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                  return openerElement.is('img') ? openerElement : openerElement.find('img');
+                }
+              }
+
+            });
+        </script>
+    </body>
+</html>

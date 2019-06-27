@@ -1,0 +1,101 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 36px;
+    /*background-color : red;*/
+    background-color: #ff1401;
+    color : white;
+    text-align: center;
+}
+
+main
+{
+    padding-top : 3%;
+}
+
+.row
+{
+    padding : 2% 0;
+}
+
+.red
+{
+    background-color: #ff1401;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+img.avatar
+{
+    border-radius : 400px;
+    border: 4px solid #fff;
+}
+
+.social
+{
+    text-align: center;
+}
+
+.social
+{
+    color: rgb(0, 123, 182);
+}
+
+button
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff1401;
+    color: white;
+}
+
+button:hover
+{
+    color: red;
+    background-color: white;
+}
+
+.about-me
+{
+    color: white;
+}
+
+.logo
+{
+    margin-top: 3%;
+}
+
+#resume
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: white;
+    background-color: #ff1401;
+    border-radius: 4px;
+    text-align: center;
+    padding: 1% 2%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.portfolio
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
