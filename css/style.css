@@ -99,3 +99,17 @@ button:hover
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.content-accessor
+{
+    display: block;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: white;
+    background-color: #ff1401;
+    border-radius: 4px;
+    text-align: center;
+    padding: 1% 2%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
