@@ -80,13 +80,15 @@ button:hover
     display: inline-block;
     text-decoration: none;
     font-size: 2.5em;
-    color: white;
-    background-color: #ff1401;
+    color:  #ff1401;
+    border-style: solid;
+    border-color: red;
+    /* background-color: #ff1401; */
     border-radius: 4px;
     text-align: center;
     padding: 1% 2%;
     margin-bottom: 5%;
-    margin-top: 3%;
+    margin-top: 12%;
 }
 
 .center
