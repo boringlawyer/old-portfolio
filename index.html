@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset = "utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <title>Caleb Katzenstein Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -54,7 +54,7 @@
                     <div class="col col-xm-12"><a href = "https://github.com/boringlawyer/Displacement" class="content-accessor"><i class="fa fa-github"></i> View Source</a></div>
                     <div class = "col col-xm-12"><img src = "#" alt = "" style="visibility: hidden"></div>
                 </div> -->
-                <div class = "row center">
+                <div class = "row">
                     <div class = "col-12 col-md-4 portfolio">
                         <div class = "row">
                             <div class = "col">
@@ -67,7 +67,7 @@
                     </div>
                     <div class = "col-12 col-md-4 portfolio">
                         <div class = "row">
-                            <a class = "image-link" href = "Images/dasher.PNG" title = 'Dasher (in progress) is a game in which the player must dash in between obstacles to reach a destination, like the childhood game "The Floor is Lava". Used Unity Game Engine and C# for scripting.'><img src ="Images/dasher.PNG" alt = "Dasher"></a>
+                            <div class = "col"><a class = "image-link" href = "Images/dasher.PNG" title = 'Dasher (in progress) is a game in which the player must dash in between obstacles to reach a destination, like the childhood game "The Floor is Lava". Used Unity Game Engine and C# for scripting.'><img src ="Images/dasher.PNG" alt = "Dasher"></a></div>
                         </div>
                         <div class = "row">
                             <div class="col"><a href = "Games/Dasher/index.html" class="content-accessor"><i class="fa fa-play"></i> Play Now</a></div>
@@ -104,12 +104,13 @@
                 </div>
             </div>
         </main>
-        <div class = "row red">
-            <div class = "container">
-                <div class = "four columns">
-                    <img class = "avatar" src = "Images/Profile_Picture_small.jpg" alt = "Me">
-                </div>
-                <div class = "eight columns about-me">
+        <div class = "container-fluid red">
+            <div class = "row bio">
+                    <div class = "col-md-2"></div>
+                    <div class = "col-12 col-md-4 col-lg-3">
+                        <img class = "avatar" src = "Images/Profile_Picture_small.jpg" alt = "Me">
+                    </div>
+                <div class = "col-12 col-md-4 about-me">
                     <h2>About Me</h2>
                     <p>
                         My name is Caleb Katzenstein, and I am a Game Design and Development student at the Rochester Institute of Technology. I love games, Youtube, animation, superhero movies, and getting things done.<br />
@@ -121,7 +122,7 @@
         </div>
         <footer>
             <div class = "container">
-                <div class = "social row twelve columns"><a href = https://www.linkedin.com/in/caleb-katzenstein-602135127><span class="fa fa-linkedin-square fa-5x" aria-hidden="true"></span></a></div>
+                <div class = "social row"><div class = "col"><a href = https://www.linkedin.com/in/caleb-katzenstein-602135127><span class="fa fa-linkedin-square fa-5x" aria-hidden="true"></span></a></div></div>
                 <div class = "row twelve columns">
                     <p>&copy; Caleb Katzenstein. All rights reserved. Skeleton framework from getskeleton.com. Magnific Popup from http://dimsemenov.com/plugins/magnific-popup. FontAwesome from fontawesome.io. jQuery from ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js. Roboto font from Google Fonts. With a little help from this forum post: https://stackoverflow.com/questions/3682805/javascript-load-a-page-on-button-click</p>
                 </div>
